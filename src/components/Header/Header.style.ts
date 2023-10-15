@@ -9,6 +9,7 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   title: {
+    color: '#333',
     fontSize: 15,
     fontWeight: 'bold',
     lineHeight: 18,
