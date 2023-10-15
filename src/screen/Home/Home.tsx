@@ -5,12 +5,14 @@ import { View } from 'react-native';
 import styles from './Home.style';
 
 // components
-import { LoginForm } from '../../components';
+import { LoginForm, SocialLoginView } from '../../components';
 
 const Home = () => {
   return (
     <View style={[styles.container]}>
       <LoginForm />
+      <View style={[styles.divideLine]} />
+      <SocialLoginView />
     </View>
   );
 };
